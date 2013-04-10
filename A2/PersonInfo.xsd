@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.nju.edu.cn/schema"
+	targetNamespace="http://www.nju.edu.cn/schema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xs:include schemaLocation="Department.xsd"></xs:include>
+	<xs:element name="personInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="xs:string"></xs:element>
+				<xs:element name="gender">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="男"></xs:enumeration>
+							<xs:enumeration value="女"></xs:enumeration>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="birthday" type="xs:date"></xs:element>
+				<xs:element name="identity">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="18"></xs:length>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="mobilephone">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="11"></xs:length>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="email" type="xs:string"></xs:element>
+				<xs:element ref="department"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
