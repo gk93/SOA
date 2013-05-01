@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?>
+<student xmlns="http://jw.nju.edu.cn/schema"
+    xmlns:p="http://www.nju.edu.cn/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jw.nju.edu.cn/schema Student.xsd ">
+    <studentID>101250054</studentID>
+    <enterYear>2010</enterYear>
+    <nowYear>2010</nowYear>
+    <classNum>1</classNum>
+    <p:personInfo>
+        <p:name>黄鑫</p:name>
+        <p:gender>男</p:gender>
+        <p:birthday>1992-10-10</p:birthday>
+        <p:identity>320924199210109078</p:identity>
+        <p:mobilephone>15996257269</p:mobilephone>
+        <p:email>huangx10@software.nju.edu.cn</p:email>
+        <p:department>
+            <p:name>软件学院</p:name>
+            <p:type>院系</p:type>
+            <p:address>南京市汉口路22号，南京大学软件学院(费彝民楼B座4-9层) 210093</p:address>
+            <p:phone>025-83621002， 025-83621369</p:phone>
+            <p:homepage>http://software.nju.edu.cn/</p:homepage>
+        </p:department>
+    </p:personInfo>
+</student>

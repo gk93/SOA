@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:student xmlns:s="http://jw.nju.edu.cn/schema" xmlns:p="http://www.nju.edu.cn/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jw.nju.edu.cn/schema Student.xsd ">
+  <s:studentID>101250033</s:studentID>
+  <s:enterYear>2010</s:enterYear>
+  <s:nowYear>2010</s:nowYear>
+  <s:classNum>1</s:classNum>
+  <p:personInfo>
+    <p:name>Geng YuXiang</p:name>
+    <p:gender>Man</p:gender>
+    <p:birthday>1992-08-20</p:birthday>
+    <p:identity>320204199208203512</p:identity>
+    <p:mobilephone>15996283601</p:mobilephone>
+    <p:email>gyx10@software.nju.edu.cn</p:email>
+    <p:department>
+      <p:name>Software Institute</p:name>
+      <p:type>Institute</p:type>
+      <p:address>Nan Jing Hankou Road 22#,Nan Jing University Software Institute(Feiyimin Building B ,Floor 4-9) 210093</p:address>
+      <p:phone>025-83621002， 025-83621369</p:phone>
+      <p:homepage>http://software.nju.edu.cn/</p:homepage>
+    </p:department>
+  </p:personInfo>
+</s:student>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.nju.edu.cn/schema"
+targetNamespace="http://www.nju.edu.cn/schema"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+elementFormDefault="qualified" >
+	<xs:element name="department" type="departmentComplexType">
+	</xs:element>
+	<xs:complexType name="departmentComplexType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="type">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="院系" />
+						<xs:enumeration value="直属部门"/>
+						<xs:enumeration value="行政部门"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="address" type="xs:string"/>
+			<xs:element name="phone" type="xs:string"/>
+			<xs:element name="homepage" type="xs:anyURI"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

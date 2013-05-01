@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<student xmlns="http://jw.nju.edu.cn/schema" xmlns:p="http://www.nju.edu.cn/schema">
+  <studentID>哈哈哈 </studentID>
+  <enterYear>2010</enterYear>
+  <nowYear>2010</nowYear>
+  <classNum>1</classNum>
+</student>
